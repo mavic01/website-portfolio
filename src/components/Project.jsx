@@ -1,3 +1,5 @@
+import { ArrowRight, ExternalLink, Github } from "lucide-react";
+
 const projects = [
   {
     id: 1,
@@ -138,7 +140,7 @@ const projects = [
 
 
 const Project = () => {
-  return <section id="projects" className="py-24 px-4 relative">
+  return <section id="projects" className="py-20 px-4 relative">
     <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
             Featured<span className="text-primary"> Projects</span>
@@ -157,12 +159,27 @@ const Project = () => {
                                 <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/20 text-secondary-foreground">{tag}</span>
                             ))}
                         </div>
+                    
+                    <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
+                    <p className="tet-muted-foreground text-sm mb-4">{project.description}</p>
+                    <div className="flex justify-center items-center">
+                        <div className="flex space-x-3">
+                            <a className="text-foreground/80 hover:text-primary transition-colors duration-300" target="_blank" href={project.demoURL}><ExternalLink size={20} /></a>
+                            <a className="text-foreground/80 hover:text-primary transition-colors duration-300" target="_blank" href={project.gitgubURL}><Github size={20}/></a>
+                        </div>
                     </div>
                 </div>
+                </div>
             ))}
+        </div>
+        <div className="text-center mt-12">
+            <a className="cosmic-button w-fit flex items-center mx-auto gap-2" href="https://github.com/mavic01" target="_blank">View My Github <ArrowRight size={16} /></a>
         </div>
     </div>
   </section>;
 };
 
 export default Project;
+
+
+//https://www.youtube.com/watch?v=ifOJ0R5UQOc&t=41s   -  2:07:23
