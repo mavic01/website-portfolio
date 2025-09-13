@@ -1,12 +1,68 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website showcasing my skills, projects, and experience as a **Frontend Developer**. It highlights my work with modern web technologies and serves as a hub for potential employers, collaborators, and anyone interested in my journey.  
 
-Currently, two official plugins are available:
+🚀 **Live Website**: [website-portfolio-rust-three.vercel.app](https://website-portfolio-rust-three.vercel.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features  
+- Responsive and accessible design  
+- Project showcase with live links and GitHub repos  
+- About me and contact section  
+- Deployed with **Vercel** for fast global performance  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack  
+- **Frontend**: React, Vite, JavaScript  
+- **Styling**: Tailwind CSS  
+- **UI Components**: Radix UI (with bits of ShadCN UI)  
+- **Deployment**: Vercel  
+
+---
+
+## 📂 Project Structure  
+```bash
+src/
+ ├── components/    
+ ├── pages/         
+ ├── assets/        
+ ├── styles/        
+ └── App.jsx       
+```
+
+---
+
+## ⚡ Getting Started  
+
+### 1. Clone the repo  
+```bash
+git clone https://github.com/mavic01/website-portfolio.git
+cd website-portfolio
+```
+
+### 2. Install dependencies  
+```bash
+npm install
+```
+
+### 3. Run locally  
+```bash
+npm run dev
+```
+
+### 4. Build for production  
+```bash
+npm run build
+```
+
+---
+
+## 📬 Contact  
+- **Name**: Victor N. Iberi  
+- **Portfolio**: [website-portfolio-rust-three.vercel.app](https://website-portfolio-rust-three.vercel.app/)  
+- **Email**: iberivictor7@gmail.com  
+- **LinkedIn**: [linkedin.com/in/victor-iberi](https://www.linkedin.com/in/victor-iberi)  
+
+
