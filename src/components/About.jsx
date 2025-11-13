@@ -11,10 +11,10 @@ const About = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
                 <div className='space-y-6'>
                     <h3 className='text-2xl font-semibold'>Creative Frontend Developer</h3>
-                    <p className='text-muted-foreground'>Bringing 3 years of experience in creating responsive, accessible, and user-friendly web apps with React and Tailwind, with a focus on delivering seamless digital experiences.</p>
+                    <p className='text-muted-foreground'>Bringing 3 years of experience in creating responsive, accessible, and user-friendly web apps with React, Vue, and Tailwind, with a focus on delivering seamless digital experiences.</p>
                     <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
                         <a href="#contact" className='cosmic-button'>Get In Touch</a>
-                        <a href="/resume.pdf" download className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>Download CV</a>
+                        <a href="/Victor-Iberi.pdf" download className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>Download CV</a>
                     </div>
                 </div>
 

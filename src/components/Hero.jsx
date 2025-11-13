@@ -21,9 +21,9 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-lg md:xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Frontend developer skilled in React and Tailwind. I recently
-            completed an internship at Cyncra Technologies and am now wrapping
-            up my Frontend Engineering diploma at AltSchool Africa.
+            Frontend Developer with a Diploma in Frontend Engineering from
+            AltSchool Africa. Skilled in React, Vue, and Tailwind CSS, I love
+            building responsive, user-focused web applications.
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
@@ -45,5 +45,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
