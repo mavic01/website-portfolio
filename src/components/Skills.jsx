@@ -7,20 +7,20 @@ const skills = [
     {name: "JavaScript", level: 70, category: "frontend"},
     {name: "TypeScript", level: 60, category: "frontend"},
     {name: "Tailwind CSS", level: 85, category: "frontend"},
-    {name: "Next.js", level: 70, category: "frontend"},
+    {name: "React.js", level: 70, category: "frontend"},
+    {name: "Next.js", level: 60, category: "frontend"},
     {name: "Vue.js", level: 60, category: "frontend"},
 
     // Backend
     {name: "Node.js", level: 55, category: "backend"},
     {name: "Express", level: 60, category: "backend"},
     {name: "MongoDB", level: 60, category: "backend"},
+    {name: "NestJS", level: 60, category: "backend"},
 
     // Tools
     {name: "Git/GitHub", level: 75, category: "tools"},
     {name: "Figma", level: 60, category: "tools"},
     {name: "VS Code", level: 90, category: "tools"},
-    {name: "Tailwind CSS", level: 85, category: "Frontend"},
-    {name: "Next.js", level: 70, category: "Frontend"},
 ];
 
 const categories = ["all", "frontend", "backend", "tools"]

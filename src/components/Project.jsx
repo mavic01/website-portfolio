@@ -3,46 +3,65 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "GetChange Employee Management System",
+    description:
+      "A responsive employee management app with secure authentication and CRUD functionality.",
+    image: "/projects/getchange.png",
+    tags: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "JavaScript",
+      "Axios",
+      "React Router",
+      "REST API",
+      "JWT Authentication",
+    ],
+    demoURL: "https://mihams-capstone-project.vercel.app/",
+    githubURL: "https://github.com/mavic01/mihams-capstone-project",
+  },
+  {
+    id: 2,
     title: "Geo-spatial Weather Map",
     description:
       "A weather map showing live MRMS precipitation data using Leaflet.",
     image: "/projects/geospatial-weather-map.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://geospatial-weather-map.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/geospatial-weather-map/",
+    githubURL: "https://github.com/mavic01/geospatial-weather-map/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Music Playlist",
     description:
       "A responsive music player website with an elegant interface for browsing and playing tracks.",
     image: "/projects/music-player.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://playlist-alpha.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/playlist",
+    githubURL: "https://github.com/mavic01/playlist",
   },
   {
-    id: 3,
+    id: 4,
     title: "Space Tourism Website",
     description:
       "An interactive space exploration website designed with a modern and futuristic UI.",
     image: "/projects/space-tourism.png",
     tags: ["React.JS", "TypeScript", "JavaScript", "Tailwind CSS", "Vite"],
     demoURL: "https://space-tourism-sooty-theta.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/space-tourism",
+    githubURL: "https://github.com/mavic01/space-tourism",
   },
   {
-    id: 4,
+    id: 5,
     title: "E-Commerce Product Page",
     description:
       "A dynamic e-commerce product page with interactive product previews and cart functionality.",
     image: "projects/e-commerce.png",
     tags: ["React.JS", "TypeScript", "JavaScript", "Tailwind CSS", "Vite"],
     demoURL: "https://e-commerce-product-yiw9.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/E-Commerce-Product",
+    githubURL: "https://github.com/mavic01/E-Commerce-Product",
   },
   {
-    id: 5,
+    id: 6,
     title: "Todo App",
     description:
       "A feature-rich todo app that fetches data from JSONPlaceholder, with CRUD simulation and filtering.",
@@ -58,20 +77,20 @@ const projects = [
       "Vite",
     ],
     demoURL: "https://second-semester-exam-phi.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/second-semester-exam",
+    githubURL: "https://github.com/mavic01/second-semester-exam",
   },
   {
-    id: 6,
+    id: 7,
     title: "Calculator",
     description:
       "A clean and simple web calculator for performing basic arithmetic operations.",
     image: "/projects/simple-calculator.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://calculator-eight-eosin-27.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/calc",
+    githubURL: "https://github.com/mavic01/calc",
   },
   {
-    id: 7,
+    id: 8,
     title: "Interactive Credit Card Page",
     description:
       "A credit card form that updates card details in real-time and validates inputs dynamically.",
@@ -85,97 +104,97 @@ const projects = [
       "Next.JS",
     ],
     demoURL: "https://cardz-mauve.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/cardz",
+    githubURL: "https://github.com/mavic01/cardz",
   },
   {
-    id: 8,
+    id: 9,
     title: "Insta Spot Social Media Page",
     description:
       "A simple social media prototype page with a clean feed-style layout.",
     image: "/projects/insta.png",
     tags: ["React.JS", "JavaScript", "Tailwind CSS", "Vite"],
     demoURL: "https://react-spots.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/react-spots",
+    githubURL: "https://github.com/mavic01/react-spots",
   },
   {
-    id: 9,
+    id: 10,
     title: "Sneaker Shop",
     description:
       "A responsive sneaker e-commerce landing page with a stylish product showcase.",
     image: "/projects/sneaker.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://mavic01.github.io/shop/",
-    gitgubURL: "https://github.com/mavic01/shop",
+    githubURL: "https://github.com/mavic01/shop",
   },
   {
-    id: 10,
+    id: 11,
     title: "Stop Watch",
     description:
       "A functional stopwatch app with start, pause, and reset controls.",
     image: "/projects/stopwatch.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://stopwatch-six-flame.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/stopwatch",
+    githubURL: "https://github.com/mavic01/stopwatch",
   },
   {
-    id: 11,
+    id: 12,
     title: "Digital Clock",
     description:
       "A digital clock web app that displays real-time hours, minutes, and seconds.",
     image: "/projects/clock.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://clock-tau-peach.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/clock",
+    githubURL: "https://github.com/mavic01/clock",
   },
   {
-    id: 12,
+    id: 13,
     title: "QR Code Generator",
     description:
       "A tool that generates QR codes instantly from user-provided URLs.",
     image: "/projects/qr-code-generator.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://qrcode-mavic01.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/qrcode",
+    githubURL: "https://github.com/mavic01/qrcode",
   },
   {
-    id: 13,
+    id: 14,
     title: "BookList",
     description:
       "A book list app where users can add, update, and delete books easily.",
     image: "/projects/booklist.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://mavic01.github.io/Book-List/",
-    gitgubURL: "https://github.com/mavic01/Book-List",
+    githubURL: "https://github.com/mavic01/Book-List",
   },
   {
-    id: 14,
+    id: 15,
     title: "Art Website",
     description:
       "A visually appealing website showcasing artworks and creative designs.",
     image: "/projects/art-website.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://mavicart.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/mavicart",
+    githubURL: "https://github.com/mavic01/mavicart",
   },
   {
-    id: 15,
+    id: 16,
     title: "Rock - Paper - Scissors",
     description:
       "An interactive Rock-Paper-Scissors game with a fun and simple UI.",
     image: "/projects/rock-paper-scissors.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://rock-paper-scissors-two-sandy.vercel.app/",
-    gitgubURL: "https://github.com/mavic01/Rock-Paper-Scissors",
+    githubURL: "https://github.com/mavic01/Rock-Paper-Scissors",
   },
   {
-    id: 16,
+    id: 17,
     title: "Drum Kit",
     description:
       "A drum kit web app that plays different drum sounds on key press or click.",
     image: "/projects/drum-kit.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoURL: "https://mavic01.github.io/drumKit/",
-    gitgubURL: "https://github.com/mavic01/drumKit",
+    githubURL: "https://github.com/mavic01/drumKit",
   },
 ];
 
@@ -229,7 +248,7 @@ const Project = () => {
                     <a
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       target="_blank"
-                      href={project.gitgubURL}
+                      href={project.githubURL}
                     >
                       <Github size={20} />
                     </a>
@@ -255,4 +274,3 @@ const Project = () => {
 
 export default Project;
 
-//https://www.youtube.com/watch?v=ifOJ0R5UQOc&t=41s   -  2:07:23
