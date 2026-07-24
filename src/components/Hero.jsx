@@ -21,9 +21,9 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-lg md:xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Frontend Developer with a Diploma in Frontend Engineering from
-            AltSchool Africa. Skilled in React, Vue, and Tailwind CSS, I love
-            building responsive, user-focused web applications.
+            Frontend Developer skilled in React, Next.js, Vue, TypeScript, and
+            Tailwind CSS, with a Frontend Engineering diploma from AltSchool
+            Africa.
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
